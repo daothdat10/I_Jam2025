@@ -1,10 +1,7 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/34c444a6-c7b4-4a08-a203-a9b1341e3896" alt="Logo Game" >
-  
   <h1 align="center">Couple Run</h1>
   
   <h2 align="center">🏆 I_Jam (IT Festival 2025) 🏆</h2>
-  
   <p align="center">
     <strong>⏰ Time:</strong> Make game in 2 days <br>
     <strong>📍 Location:</strong> Hanoi University of Industry
@@ -13,6 +10,11 @@
   <div align="center">
      <h3 align="center">🏆 Champion 🏆</h3>
   </div>
+  <img src="https://github.com/user-attachments/assets/34c444a6-c7b4-4a08-a203-a9b1341e3896" alt="Logo Game" >
+  
+  
+  
+  
   
  <div align="center"> <h2>🎮 GAME DESCRIPTION 🎮</h2> <div align="center"> <img src="https://github.com/user-attachments/assets/91170475-0353-465d-b90a-04fece5d4beb" alt="Gameplay" > </div> <h3 align="center">💡 CONCEPT</h3> </div>
 Based on the theme "Connection and Time" provided by the organizers, we have developed a game with these creative elements:
