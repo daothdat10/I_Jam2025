@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9151389833523947051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7975150327607044775}
+  - component: {fileID: 9079892992451449540}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7975150327607044775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9151389833523947051}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 961.52936, y: 165.3218, z: -5.9019165}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9079892992451449540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9151389833523947051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ab03c46397ead4b93e7c13b0405a2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuGame
+    clip: {fileID: 8300000, guid: dc8b7de8180b45741840f76e7e8fa76b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: PlayGame
+    clip: {fileID: 8300000, guid: c01b2a455086c4344ae4f53859c75163, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: VFX
+    clip: {fileID: 8300000, guid: cf2e3909e02b13041b48bd267fa7cc43, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  soundFXs:
+  - namesfx: Button
+    sfx: {fileID: 8300000, guid: bb45d50c27107364badc8df360279eb5, type: 3}
+    volume: 0.556
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Collider
+    sfx: {fileID: 8300000, guid: f97619f218f3900419092787c729dbf0, type: 3}
+    volume: 0.487
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Loser
+    sfx: {fileID: 8300000, guid: 61031f4dc08a2884fa074e17829b321d, type: 3}
+    volume: 0.672
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Jump
+    sfx: {fileID: 8300000, guid: c19902a09b475ac4598efe6969f346a6, type: 3}
+    volume: 0.672
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Move
+    sfx: {fileID: 8300000, guid: 545f44cba383fda4db426fb2cb30d701, type: 3}
+    volume: 0.672
+    pitch: 1
+    sourceFX: {fileID: 0}
